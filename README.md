@@ -1,5 +1,5 @@
 # DPLL SAT Solver
-This project solves the satisfiability problem for CNF (Conjuctive Normal Form) by using DPLL (Davis–Putnam–Logemann–Loveland), a backtracking-based algorithm.
+This project solves the satisfiability problem for CNF (Conjuctive Normal Form) by using [DPLL (Davis–Putnam–Logemann–Loveland)](https://www.wikiwand.com/en/DPLL_algorithm), a backtracking-based algorithm. Using [DFS](https://www.wikiwand.com/en/Depth-first_search) to explore the the solution space to find an assignment (partial) to satisfy the formula.
 
 ## Pseudocode
 Here is the pseudocode of the algorithm.
