@@ -126,6 +126,3 @@ def dpll(formula, assignment=None):
         if branching_default: new_formula = new_formula_false
         else: new_formula = new_formula_true
         return dpll(new_formula, assignment)
-
-
-dpll([[-1, 2, 3], [1, 3, 4], [1, 3, -4], [1, -3, 4], [1, -3, -4], [-2, -3, 4], [-1, 2, -3], [-1, -2, 3]])
