@@ -98,7 +98,7 @@ def dpll(formula, assignment=None):
 
     ### choose literal (most frequent)
     chosen_literal = frequent_literal(clean_formula)
-    print('hosen literal: ', chosen_literal, end='\n--------------------------------------------\n')
+    print('chosen literal: ', chosen_literal, end='\n--------------------------------------------\n')
 
     ### add the chosen literal to the formula
     new_formula_true ,new_formula_false = list(clean_formula), list(clean_formula)
