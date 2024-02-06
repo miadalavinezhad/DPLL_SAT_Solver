@@ -43,14 +43,14 @@ Start Formula:  [[1, 2], [-1, 3], [-2, -3], [2, 3]]
 Cleaning process (1) U.P.:  [[1, 2], [-1, 3], [-2, -3], [2, 3]]
 Cleaning process (2) P.L.E.:  [[1, 2], [-1, 3], [-2, -3], [2, 3]]
 Cleaning process (3) Superset Elimination:  [[1, 2], [-1, 3], [-3, -2], [2, 3]]
-hosen literal:  2
+chosen literal:  2
 --------------------------------------------
 Assignment:  {2: True}
 Start Formula:  [[1, 2], [-1, 3], [-3, -2], [2, 3], [2]]
 Cleaning process (1) U.P.:  [[-1, 3], [-3]]
 Cleaning process (2) P.L.E.:  [[-3]]
 Cleaning process (3) Superset Elimination:  [[-3]]
-hosen literal:  -3
+chosen literal:  -3
 --------------------------------------------
 Assignment:  {2: True, -3: True}
 Start Formula:  [[-3]]
